@@ -54,14 +54,15 @@ def check_problem(p, search_method, timeout):
 def solve_problems(problems):
     solved = 0
     for problem in problems:
+        """
         try:
             p = ex1.create_medical_problem(problem)
         except Exception as e:
             print("Error creating problem: ", e)
             return None
-        timeout = 60
+        """
+        timeout = 300
         result = check_problem(p, (lambda p: search.best_first_graph_search(p, p.h)), timeout)
-        print("GBFS ", result)
         if result[2] != None:
             if result[0] != -3:
                 solved = solved + 1
@@ -96,7 +97,7 @@ def main():
             "medics": 0,
             "observations": [
                 (
-                    ('H', '?'),
+                    ('H', 'S'),
                     ('H', 'H')
                 ),
 
@@ -107,7 +108,7 @@ def main():
             ],
 
             "queries": [
-                [((0, 1), 0, "H"), ((1, 0), 1, "S")]
+                [((0, 1), 1, "H"), ((1, 0), 1, "S")]
             ]
 
         }
