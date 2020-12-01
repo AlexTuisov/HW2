@@ -62,7 +62,7 @@ def solve_problems(problems):
             return None
         """
         timeout = 300
-        result = check_problem(p, (lambda p: search.best_first_graph_search(p, p.h)), timeout)
+        result = check_problem(x, (lambda x: ex2.), timeout)
         if result[2] != None:
             if result[0] != -3:
                 solved = solved + 1
