@@ -1,4 +1,5 @@
 import time
+import ex2
 
 
 def timeout_exec(func, args=(), kwargs={}, timeout_duration=10, default=None):
@@ -29,43 +30,14 @@ def timeout_exec(func, args=(), kwargs={}, timeout_duration=10, default=None):
         return it.result
 
 
-def check_problem(p, search_method, timeout):
-    """ Constructs a problem using ex1.create_wumpus_problem,
-    and solves it using the given search_method with the given timeout.
-    Returns a tuple of (solution length, solution time, solution)"""
-
-    """ (-2, -2, None) means there was a timeout
-    (-3, -3, ERR) means there was some error ERR during search """
-
-    t1 = time.time()
-    s = timeout_exec(search_method, args=[p], timeout_duration=timeout)
-    t2 = time.time()
-
-    if isinstance(s, search.Node):
-        solve = s
-        solution = list(map(lambda n: n.action, solve.path()))[1:]
-        return (len(solution), t2 - t1, solution)
-    elif s is None:
-        return (-2, -2, None)
-    else:
-        return s
-
-
 def solve_problems(problems):
-    solved = 0
     for problem in problems:
-        """
-        try:
-            p = ex1.create_medical_problem(problem)
-        except Exception as e:
-            print("Error creating problem: ", e)
-            return None
-        """
         timeout = 300
-        result = check_problem(x, (lambda x: ex2.), timeout)
-        if result[2] != None:
-            if result[0] != -3:
-                solved = solved + 1
+        t1 = time.time()
+        result = timeout_exec(ex2.solve_problem, args=[problem], timeout_duration=timeout)
+        t2 = time.time()
+        print(f'Your answer is {result}, achieved in {t2-t1} seconds')
+        
 
 
 def main():
@@ -98,7 +70,7 @@ def main():
             "observations": [
                 (
                     ('H', 'S'),
-                    ('H', 'H')
+                    ('?', 'H')
                 ),
 
                 (
