@@ -1,0 +1,14 @@
+['314771692']
+Your answer is {((0, 1), 0, 'H'): F, ((1, 0), 1, 'S'): F}, achieved in 0.0076198577880859375 seconds
+Your answer is {((0, 1), 1, 'H'): T, ((1, 0), 1, 'S'): T}, achieved in 0.008077383041381836 seconds
+Your answer is None, achieved in 0.0036668777465820312 seconds
+Your answer is None, achieved in 0.0041942596435546875 seconds
+Your answer is None, achieved in 0.00266265869140625 seconds
+Your answer is None, achieved in 0.011282920837402344 seconds
+Your answer is None, achieved in 0.0018777847290039062 seconds
+Your answer is None, achieved in 0.00048065185546875 seconds
+Your answer is None, achieved in 0.002063274383544922 seconds
+Your answer is None, achieved in 0.004391193389892578 seconds
+Your answer is None, achieved in 0.0007202625274658203 seconds
+Your answer is None, achieved in 0.0032215118408203125 seconds
+Your answer is None, achieved in 0.004332304000854492 seconds

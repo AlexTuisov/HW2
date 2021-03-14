@@ -1,0 +1,14 @@
+['318539103', '302816863']
+Your answer is {((0, 1), 0, 'H'): 'F', ((1, 0), 1, 'S'): 'F'}, achieved in 0.0007348060607910156 seconds
+Your answer is {((0, 1), 1, 'H'): 'F', ((1, 0), 1, 'S'): '?'}, achieved in 0.0006289482116699219 seconds
+Your answer is None, achieved in 0.002481222152709961 seconds
+Your answer is None, achieved in 0.0015025138854980469 seconds
+Your answer is None, achieved in 0.0016117095947265625 seconds
+Your answer is None, achieved in 0.002624034881591797 seconds
+Your answer is None, achieved in 0.0012552738189697266 seconds
+Your answer is None, achieved in 0.0005774497985839844 seconds
+Your answer is None, achieved in 0.0010135173797607422 seconds
+Your answer is None, achieved in 0.001531839370727539 seconds
+Your answer is None, achieved in 0.0009005069732666016 seconds
+Your answer is None, achieved in 0.001165151596069336 seconds
+Your answer is None, achieved in 0.0010535717010498047 seconds

@@ -1,0 +1,14 @@
+['315881656']
+Your answer is None, achieved in 0.10386228561401367 seconds
+Your answer is None, achieved in 0.05826854705810547 seconds
+Your answer is {((0, 1), 0, 'H'): 'T', ((1, 0), 1, 'S'): 'F', ((1, 1), 2, 'H'): 'F', ((0, 0), 3, 'S'): 'F'}, achieved in 2.753770351409912 seconds
+Your answer is {((0, 0), 2, 'H'): 'F'}, achieved in 1.1910431385040283 seconds
+Your answer is {((2, 3), 0, 'H'): 'F', ((3, 0), 1, 'H'): 'T'}, achieved in 0.957160472869873 seconds
+Your answer is {((2, 1), 1, 'U'): 'F', ((1, 3), 2, 'I'): 'F', ((3, 0), 2, 'S'): 'T'}, achieved in 2.697815418243408 seconds
+Your answer is {((0, 0), 4, 'H'): 'T', ((1, 0), 4, 'S'): 'T'}, achieved in 1.163966417312622 seconds
+Your answer is {((0, 0), 0, 'S'): 'F'}, achieved in 0.08507919311523438 seconds
+Your answer is {((0, 1), 0, 'S'): '?'}, achieved in 0.31165647506713867 seconds
+Your answer is {((1, 2), 1, 'S'): 'F', ((2, 0), 2, 'S'): '?'}, achieved in 1.5591378211975098 seconds
+Your answer is {((0, 0), 0, 'H'): 'T', ((0, 1), 0, 'H'): 'T', ((1, 0), 0, 'H'): '?', ((1, 1), 0, 'H'): 'T'}, achieved in 0.15200042724609375 seconds
+Your answer is {((2, 0), 1, 'S'): '?'}, achieved in 0.30055785179138184 seconds
+Your answer is {((1, 3), 0, 'H'): '?', ((1, 3), 1, 'H'): 'F'}, achieved in 0.5132503509521484 seconds

@@ -1,0 +1,27 @@
+['336481148', '314625039']
+IStartTocheck
+Your answer is None, achieved in 0.0007874965667724609 seconds
+IStartTocheck
+Your answer is None, achieved in 0.0003237724304199219 seconds
+IStartTocheck
+Your answer is {((0, 1), 0, 'H'): 'T', ((1, 0), 1, 'S'): 'F', ((1, 1), 2, 'H'): 'F', ((0, 0), 3, 'S'): 'F'}, achieved in 0.0023353099822998047 seconds
+IStartTocheck
+Your answer is {((0, 0), 2, 'H'): 'F'}, achieved in 0.0013129711151123047 seconds
+IStartTocheck
+Your answer is {((2, 3), 0, 'H'): 'F', ((3, 0), 1, 'H'): 'T'}, achieved in 0.0009584426879882812 seconds
+IStartTocheck
+Your answer is {((2, 1), 1, 'U'): 'F', ((1, 3), 2, 'I'): 'F', ((3, 0), 2, 'S'): 'F'}, achieved in 0.0029354095458984375 seconds
+IStartTocheck
+Your answer is {((0, 0), 4, 'H'): 'T', ((1, 0), 4, 'S'): 'T'}, achieved in 0.0011837482452392578 seconds
+IStartTocheck
+Your answer is {((0, 0), 0, 'S'): 'F'}, achieved in 0.00036787986755371094 seconds
+IStartTocheck
+Your answer is {((0, 1), 0, 'S'): '?'}, achieved in 0.0005152225494384766 seconds
+IStartTocheck
+Your answer is {((1, 2), 1, 'S'): 'F', ((2, 0), 2, 'S'): 'T'}, achieved in 0.0018115043640136719 seconds
+IStartTocheck
+Your answer is {((0, 0), 0, 'H'): 'T', ((0, 1), 0, 'H'): 'T', ((1, 0), 0, 'H'): '?', ((1, 1), 0, 'H'): 'T'}, achieved in 0.0007421970367431641 seconds
+IStartTocheck
+Your answer is {((2, 0), 1, 'S'): '?'}, achieved in 0.0006108283996582031 seconds
+IStartTocheck
+Your answer is {((1, 3), 0, 'H'): 'F', ((1, 3), 1, 'H'): 'F'}, achieved in 0.001130819320678711 seconds
